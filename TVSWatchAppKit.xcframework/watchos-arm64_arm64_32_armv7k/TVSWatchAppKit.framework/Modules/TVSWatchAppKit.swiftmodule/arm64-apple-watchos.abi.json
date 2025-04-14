@@ -1,0 +1,195 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TVSWatchAppKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TVSWatchAppCore",
+        "printedName": "TVSWatchAppCore",
+        "declKind": "Import",
+        "moduleName": "TVSWatchAppKit",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TVSWatchAppInitialView",
+        "printedName": "TVSWatchAppInitialView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14TVSWatchAppKit0aB11InitialViewV4bodyQrvp",
+            "mangledName": "$s14TVSWatchAppKit0aB11InitialViewV4bodyQrvp",
+            "moduleName": "TVSWatchAppKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TVSWatchAppKit0aB11InitialViewV4bodyQrvg",
+                "mangledName": "$s14TVSWatchAppKit0aB11InitialViewV4bodyQrvg",
+                "moduleName": "TVSWatchAppKit",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TVSWatchAppInitialView",
+                "printedName": "TVSWatchAppKit.TVSWatchAppInitialView",
+                "usr": "s:14TVSWatchAppKit0aB11InitialViewV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14TVSWatchAppKit0aB11InitialViewVACycfc",
+            "mangledName": "$s14TVSWatchAppKit0aB11InitialViewVACycfc",
+            "moduleName": "TVSWatchAppKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14TVSWatchAppKit0aB11InitialViewV",
+        "mangledName": "$s14TVSWatchAppKit0aB11InitialViewV",
+        "moduleName": "TVSWatchAppKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BaseURLConfig",
+        "printedName": "BaseURLConfig",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setBaseURL",
+            "printedName": "setBaseURL(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14TVSWatchAppKit13BaseURLConfigC03setD3URLyySSFZ",
+            "mangledName": "$s14TVSWatchAppKit13BaseURLConfigC03setD3URLyySSFZ",
+            "moduleName": "TVSWatchAppKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14TVSWatchAppKit13BaseURLConfigC",
+        "mangledName": "$s14TVSWatchAppKit13BaseURLConfigC",
+        "moduleName": "TVSWatchAppKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

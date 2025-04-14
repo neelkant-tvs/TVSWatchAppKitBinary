@@ -1,0 +1,6 @@
+framework module TVSWatchAppKit {
+  umbrella header "TVSWatchAppKit.h"
+  export *
+
+  module * { export * }
+}

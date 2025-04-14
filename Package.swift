@@ -17,8 +17,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "TVSWatchAppKit",
-            url: "https://raw.githubusercontent.com/neelkant-tvs/TVSWatchAppKitBinary/main/TVSWatchAppKit.xcframework.zip",
-            checksum: "4429f2ca952d61d1624725e542498265f11b3ab065bacc9420bec00509c8aa70"
+            path: "TVSWatchAppKit.xcframework"
         )
     ]
 )
