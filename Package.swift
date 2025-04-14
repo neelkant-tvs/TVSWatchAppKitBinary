@@ -5,19 +5,20 @@ import PackageDescription
 
 let package = Package(
     name: "TVSWatchAppKitBinary",
+    platforms: [
+        .watchOS(.v8)
+    ],
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "TVSWatchAppKitBinary",
-            targets: ["TVSWatchAppKitBinary"]),
+            targets: ["TVSWatchAppKit"]
+        )
     ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
-        .target(
-            name: "TVSWatchAppKitBinary"),
-        .testTarget(
-            name: "TVSWatchAppKitBinaryTests",
-            dependencies: ["TVSWatchAppKitBinary"]),
+        .binaryTarget(
+            name: "TVSWatchAppKit",
+            url: "https://raw.githubusercontent.com/neelkant-tvs/TVSWatchAppKitBinary/main/TVSWatchAppKit.xcframework.zip",
+            checksum: "4429f2ca952d61d1624725e542498265f11b3ab065bacc9420bec00509c8aa70"
+        )
     ]
 )
